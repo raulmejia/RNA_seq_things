@@ -5,7 +5,7 @@ There are a R package in bioconductor to Download SRA's from NCBI (I don't know 
 
 
 
-library(SRAdb)  
+```library(SRAdb)```    
 library(DBI)  
 srafile = getSRAdbFile()  
 con = dbConnect(RSQLite::SQLite(), srafile) 
