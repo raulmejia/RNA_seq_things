@@ -14,4 +14,4 @@ There are a R package in bioconductor to Download SRA's from NCBI (I don't know 
 `dbDisconnect()`
 
 #For learn more:
-(bioconductor SRA)[https://bioconductor.org/packages/release/bioc/vignettes/SRAdb/inst/doc/SRAdb.pdf]
+[bioconductor SRA](https://bioconductor.org/packages/release/bioc/vignettes/SRAdb/inst/doc/SRAdb.pdf)
