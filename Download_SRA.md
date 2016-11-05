@@ -3,8 +3,9 @@ There are a R package in bioconductor to Download SRA's from NCBI (I don't know 
 # A Rscript for such task is:  
 
 
-
-
+`source("http://bioconductor.org/biocLite.R")`  
+`biocLite("SRAdb")`  
+`biocLite("DBI")`  
 `library(SRAdb)`      
 `library(DBI)`  
 `srafile = getSRAdbFile()`
